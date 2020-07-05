@@ -1,0 +1,29 @@
+{
+    "name": "php/httprouter",
+    "description": "HttpRouter",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oscar Guardaado",
+            "email": "guardadoalex77@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "HttpRouter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "HttpRouterUnit\\": "test/"
+        }
+    }
+}
